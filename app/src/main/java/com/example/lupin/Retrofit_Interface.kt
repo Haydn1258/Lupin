@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 
 interface Retrofit_Interface {
-    @GET("posts")
-    fun getJson(): Call<List<Output>>
+   /* @GET("posts")
+    fun getJson(): Call<List<Output>>*/
 }
